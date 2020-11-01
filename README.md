@@ -3,13 +3,13 @@ A simple Observer Pattern implementation with decorators
 
 ## Installation
 
-'''
+``` bash
 pip3 install peepy
-'''
+```
 
 ### Usage
 
-'''
+``` python
 from peepy.Observables import Observable, ObservableDict, observe, observe_dict
 
 foo = Observable('important object')
@@ -33,4 +33,4 @@ def dict_observer(label, old, new):
 foo_dict['foo'] = 2
 foo_dict['foo2'] = 20
 foo_dict['bar'] = {'baz':None}
-'''
+```
