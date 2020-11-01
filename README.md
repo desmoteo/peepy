@@ -1,2 +1,2 @@
 # peepy
-A simple Observer Patter implementation with decorators
+A simple Observer Pattern implementation with decorators
