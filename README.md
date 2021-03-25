@@ -11,7 +11,7 @@ pip3 install peepy
 
 ### Usage
 
-Observables can be connected to bserver callbacks siply by callling the bind_to method or by using the observe, observe_dict and observer_function decorators
+Observables can be connected to oserver callbacks siply by callling the bind_to method or by using the observe, observe_dict and observer_function decorators
 
 ``` python
 from peepy.Observables import Observable, ObservableDict, observe, observe_dict
